@@ -1,0 +1,150 @@
+body{
+	color:#000000;
+	background-color:#FFE4C4;	
+}
+
+
+@font-face{
+	font-family:cat;
+	src: url('cat.ttf');
+}
+
+
+article{
+	margin:10% 0;
+	width:100%;
+	background:url(back2.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:1px solid #ddd;
+}
+
+#row{
+	margin-top:100px;
+}
+
+#drawing1{
+	height:500px;
+	width:100%;
+}
+
+#Carousel{
+	border:1px solid black;
+	border-radius: 50px;
+	overflow:hidden;
+}
+
+
+.bubble{
+	margin:-10px;
+	position:fixed;
+	bottom:-100px;
+}
+
+#bubble1{
+	left:2%;
+}
+
+#bubble2{
+	left:7%;
+}
+
+#bubble3{
+	left:10%;
+}
+
+#bubble4{
+	left:5%;
+}
+
+#bubble5{
+	left:25%;
+}
+
+#bubble6{
+	left:36%;
+}
+
+#bubble7{
+	left:40%;
+}
+
+#bubble8{
+	left:50%;
+}
+
+#bubble9{
+	left:70%;
+}
+
+#bubble10{
+	left:75%;
+}
+
+#bubble11{
+	left:82%;
+}
+
+#bubble12{
+	left:95%;
+}
+
+#bubble13{
+	left:89%;
+}
+
+#bubble14{
+	left:87%;
+}
+
+button{
+	margin-bottom:10px !important;
+}
+
+
+
+.well{
+	border:1px solid black;
+	height:300px;
+	font-family:cat;
+	border-radius: 50px;
+}
+
+h1{
+	text-align:center;
+}
+
+.well p{
+	font-size:25px;
+}
+
+#word{
+	position:absolute;
+	top:40%;
+	left:35%;
+	color:black;
+	font-size:30px;
+	font-family:cat;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+
+article{
+	display:block;
+}
+
+footer p{
+	margin-top:.3em;
+	font-size:1.3em;
+	text-align:center;
+	font-style:italic;
+	margin-left:20%;
+	margin-right:20%;
+}
+footer p abbr{
+	font-weight:bold;
+	cursor:help;
+}
